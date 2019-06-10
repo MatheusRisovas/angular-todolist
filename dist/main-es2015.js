@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <app-header></app-header>\n    <router-outlet></router-outlet>\n</div>"
+module.exports = "<div>\r\n    <app-header></app-header>\r\n    <router-outlet></router-outlet>\r\n</div>"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "<div>\n    <app-header></app-header>\n    <router-outlet></rou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<form class=\"form\" (ngSubmit)='onSubmit()'>\n    <input type=\"text\" name=\"title\" [(ngModel)]='title' placeholder=\"Add Todo...\" />\n    <input type=\"submit\" value=\"Submit\" class=\"btn\">\n</form>"
+module.exports = "<form class=\"form\" (ngSubmit)='onSubmit()'>\r\n    <input type=\"text\" name=\"title\" [(ngModel)]='title' placeholder=\"Add Todo...\" />\r\n    <input type=\"submit\" value=\"Submit\" class=\"btn\">\r\n</form>"
 
 /***/ }),
 
@@ -52,7 +52,7 @@ module.exports = "<form class=\"form\" (ngSubmit)='onSubmit()'>\n    <input type
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"header\">\n    <h1>TodoList</h1>\n    <nav>\n        <a routerLink='/'>Home</a> | <a routerLink='/about'>About</a>\n    </nav>\n</header>"
+module.exports = "<header class=\"header\">\r\n    <h1>Husky - Angular - Todo List</h1>\r\n    <nav>\r\n        <a routerLink='/'>Home</a> | <a routerLink='/about'>About</a>\r\n    </nav>\r\n</header>"
 
 /***/ }),
 
@@ -63,7 +63,7 @@ module.exports = "<header class=\"header\">\n    <h1>TodoList</h1>\n    <nav>\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <h1>About</h1>\n    <p>This is the TodoList app v1.0.0. It is part of a Angular crash course</p>\n</div>"
+module.exports = "<div>\r\n    <h1>About</h1>\r\n    <p>This is the TodoList app v1.0.0. It is part of a Angular crash course</p>\r\n</div>"
 
 /***/ }),
 
@@ -74,7 +74,7 @@ module.exports = "<div>\n    <h1>About</h1>\n    <p>This is the TodoList app v1.
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div [ngClass]='setClasses()'>\n    <p>\n        <input (change)='onToggle(todo)' type=\"checkbox\" /> {{ todo.title }}\n        <button (click)='onDelete(todo)' class=\"del\">X</button>\n    </p>\n</div>"
+module.exports = "<div [ngClass]='setClasses()'>\r\n    <p>\r\n        <input (change)='onToggle(todo)' type=\"checkbox\" /> {{ todo.title }}\r\n        <button (click)='onDelete(todo)' class=\"del\">X</button>\r\n    </p>\r\n</div>"
 
 /***/ }),
 
@@ -638,7 +638,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\mathr\OneDrive\Área de Trabalho\Gi\angular-todolists\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\mathr\OneDrive\Área de Trabalho\Gi\angular-todolist\src\main.ts */"./src/main.ts");
 
 
 /***/ })
